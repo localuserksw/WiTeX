@@ -85,7 +85,7 @@ ul {
 	list-style: disc;
 }
 
-#mw-navigation, #mw-page-base, #mw-head-base, #footer {
+#mw-navigation, #mw-page-base, #mw-head-base, #footer, #mw-fr-revisiontag {
 	/* nuke everything but the content */
 	display: none;
 }
@@ -232,4 +232,10 @@ pre, code {
 
 sup {
 	text-indent: 0;
+}
+
+/* Hide the Good Article Icons */
+
+.topicon, .mw-indicators {
+    display: none !important;
 }
